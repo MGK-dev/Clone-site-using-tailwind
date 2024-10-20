@@ -10,19 +10,19 @@
     
                                         <!--navbar section-->
   <header> 
-    <nav class="bg-red-700">
+    <nav class="bg-red-700 h-16 fixed top-0 left-0 w-full">
         <ul class="flex justify-end text-2xl px-5 py-5">
-            <li class="mx-1"><a class="px-5 py-5 hover:bg-sky-900" href="#">About</a></li>
-            <li class="mx-1"><a class="px-5 py-5 hover:bg-sky-900" href="#">Work</a></li>
-            <li class="mx-1"><a class="px-5 py-5 hover:bg-sky-900" href="#">Contact</a></li>
+            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#">About</a></li>
+            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#">Work</a></li>
+            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#">Contact</a></li>
         </ul>
     </nav>
   </header>
 
                                         <!--About section-->
   <section>
-    <div class="flex flex-col justify-center items-center bg-black h-[90vh]"> <!--its a hero div-->
-        <h1 class=" text-6xl font-bold mb-4">
+    <div class="flex flex-col justify-center items-center mt-16 bg-black h-screen"> <!--its a hero div-->
+        <h1 class="text-6xl font-bold mb-4">
             Hey I am Mimic
         </h1>
         <p class="text-red-800 text-4xl font-extralight italic">
@@ -31,23 +31,130 @@
     </div>
   </section>
 
-                                        <!--Work section-->
+                                        <!--Work Project section-->
     <section>
-        <div>
-            <div> <!--its h2 div-->
-                <h1>
-                    These are some of my projects
-                </h1>
+        <div class="bg-blue-950/75">
+            
+                <h2 class="text-5xl font-semibold pt-16 underline underline-offset-[18px] text-center">
+                    <span>These are some of my projects</span>
+                </h2>
+            
+                                <!--six Project cards div-->
+
+            <div class="mt-16 mb-1 py-5 grid grid-cols-3 justify-center items-center gap-12">  
+
+                <!--first image div-->
+                <div>
+                    <a href="#"
+                    target="_blank"
+                    target="_blank"
+                    class="bg-[#43424A] rounded overflow-hidden">
+                        <img class="h-72 w-full"
+                        src="assets/tribute.jpg" alt="Card Image" width="851" height="656" 
+                        />
+    
+                        <p class="bg-gray-700 p-4 flex items-center justify-center text-2xl group">
+                            <span class="text-amber-500 hidden group-hover:block text-center">&lt;</span>
+                            Tribute Page
+                            <span class="text-amber-500 hidden group-hover:block code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
+
+                <!--2nd image div-->
+                <div>
+                    <a href="#"
+                    target="_blank"
+                    target="_blank"
+                    class="bg-[#43424A] rounded overflow-hidden">
+                        <img class="h-72 w-full"
+                        src="assets/random-quote-machine.png" alt="Card Image" width="851" height="656" 
+                        />
+    
+                        <p class="bg-gray-700 p-4 flex items-center justify-center text-2xl group">
+                            <span class="text-amber-500 hidden group-hover:block text-center">&lt;</span>
+                            Random Quote Machine
+                            <span class="text-amber-500 hidden group-hover:block code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
+
+                 <!--3rd image div-->
+                 <div>
+                    <a href="#"
+                    target="_blank"
+                    target="_blank"
+                    class="bg-[#43424A] rounded overflow-hidden">
+                        <img class="h-72 w-full"
+                        src="assets/calc.png" alt="Card Image" width="851" height="656" 
+                        />
+    
+                        <p class="bg-gray-700 p-4 flex items-center justify-center text-2xl group">
+                            <span class="text-amber-500 hidden group-hover:block text-center">&lt;</span>
+                            JavaScript Calculator
+                            <span class="text-amber-500 hidden group-hover:block code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
+
+                 <!--4th image div-->
+                 <div>
+                    <a href="#"
+                    target="_blank"
+                    target="_blank"
+                    class="bg-[#43424A] rounded overflow-hidden">
+                        <img class="h-72 w-full"
+                        src="assets/map.jpg" alt="Card Image" width="851" height="656" 
+                        />
+    
+                        <p class="bg-gray-700 p-4 flex items-center justify-center text-2xl group">
+                            <span class="text-amber-500 hidden group-hover:block text-center">&lt;</span>
+                            Map Data Across the Globe
+                            <span class="text-amber-500 hidden group-hover:block code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
+
+
+                 <!--5th image div-->
+                 <div>
+                    <a href="#"
+                    target="_blank"
+                    target="_blank"
+                    class="bg-[#43424A] rounded overflow-hidden">
+                        <img class="h-72 w-full"
+                        src="assets/wiki.png" alt="Card Image" width="851" height="656" 
+                        />
+    
+                        <p class="bg-gray-700 p-4 flex items-center justify-center text-2xl group">
+                            <span class="text-amber-500 hidden group-hover:block text-center">&lt;</span>
+                            Wikipedia Viewer
+                            <span class="text-amber-500 hidden group-hover:block code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
+
+                 <!--6th image div-->
+                 <div>
+                    <a href="#"
+                    target="_blank"
+                    target="_blank"
+                    class="bg-[#43424A] rounded overflow-hidden">
+                        <img class="h-72 w-full"
+                        src="assets/tic-tac-toe.png" alt="Card Image" width="851" height="656" 
+                        />
+    
+                        <p class="bg-gray-700 p-4 flex items-center justify-center text-2xl group">
+                            <span class="text-amber-500 hidden group-hover:block text-center">&lt;</span>
+                            Tic Tac Toe Game
+                            <span class="text-amber-500 hidden group-hover:block code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
             </div>
-            <div>  <!--six cards div-->
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div> </div>
-            </div>
-            <button>Show All ></button>
+            <div class="flex items-center justify-center">
+            <a href="#" class="mb-12 p-10"><button class="bg-gray-700 font-bold text-center px-10 py-4 transition ease-in-out duration-300 hover:bg-pink-800">Show All ></button></a>
+        </div>
         </div>
     </section>
 
