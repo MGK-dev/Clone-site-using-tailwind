@@ -587,16 +587,8 @@ video {
   margin-top: 4rem;
 }
 
-.me-2 {
-  margin-inline-end: 0.5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
@@ -629,10 +621,6 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -671,16 +659,6 @@ video {
   border-top-width: 4px;
 }
 
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
-.border-red-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(185 28 28 / var(--tw-border-opacity));
-}
-
 .border-red-800 {
   --tw-border-opacity: 1;
   border-color: rgb(153 27 27 / var(--tw-border-opacity));
@@ -710,11 +688,6 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#303841\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(48 56 65 / var(--tw-bg-opacity));
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -728,9 +701,19 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-4 {
@@ -741,16 +724,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .pb-3 {
@@ -829,11 +802,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -883,11 +851,6 @@ video {
   background-color: rgb(12 74 110 / var(--tw-bg-opacity));
 }
 
-.hover\:text-red-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
 .hover\:text-amber-500:hover {
   --tw-text-opacity: 1;
   color: rgb(245 158 11 / var(--tw-text-opacity));
@@ -903,36 +866,4 @@ video {
 
 .group:hover .group-hover\:block {
   display: block;
-}
-
-.\[\&\>svg\]\:h-7>svg {
-  height: 1.75rem;
-}
-
-.\[\&\>svg\]\:h-5>svg {
-  height: 1.25rem;
-}
-
-.\[\&\>svg\]\:h-4>svg {
-  height: 1rem;
-}
-
-.\[\&\>svg\]\:w-7>svg {
-  width: 1.75rem;
-}
-
-.\[\&\>svg\]\:w-5>svg {
-  width: 1.25rem;
-}
-
-.\[\&\>svg\]\:w-4>svg {
-  width: 1rem;
-}
-
-.\[\&\>svg\]\:fill-\[\#1877f2\]>svg {
-  fill: #1877f2;
-}
-
-.\[\&\>svg\]\:fill-\[\#c13584\]>svg {
-  fill: #c13584;
 }
