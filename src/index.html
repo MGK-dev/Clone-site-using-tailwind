@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="font-sans text-white">
@@ -13,8 +14,8 @@
     <nav class="bg-red-700 h-16 fixed top-0 left-0 w-full">
         <ul class="flex justify-end text-2xl px-5 py-5">
             <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#">About</a></li>
-            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#">Work</a></li>
-            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#">Contact</a></li>
+            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#work-section">Work</a></li>
+            <li class="mx-1"><a class="px-5 pt-5 pb-3 hover:bg-sky-900" href="#contact-section">Contact</a></li>
         </ul>
     </nav>
   </header>
@@ -32,7 +33,7 @@
   </section>
 
                                         <!--Work Project section-->
-    <section>
+    <section id="work-section">
         <div class="bg-blue-950/75">
             
                 <h2 class="text-5xl font-semibold pt-16 underline underline-offset-[18px] text-center">
@@ -159,34 +160,41 @@
     </section>
 
                                         <!--Contact section-->
-    <section>
-        <div>
-            <div> <!--this div contains h1 and p-->
-                <h1>
+    <section id="contact-section">
+        <div class="bg-black flex flex-col justify-center items-center h-screen">
+            <div class="text-center"> <!--this div contains h1 and p-->
+                <h1 class="text-6xl font-bold">
                     Let's work together...
                 </h1>
-                <p>
+                <p class="text-2xl font-extralight italic">
                     How do you take your coffee?
                 </p>
             </div>
-            <div> <!--this div contains social media-->
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="mt-20 text-xl"> <!--this div contains social media-->
+
+                <a class="px-2 hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-amber-500 duration-300 " href="https://www.facebook.com/freecodecamp"> <i class="px-2 fa-brands fa-square-facebook"></i>Facebook</a>
+                <a class="px-2 hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-amber-500 duration-300  " href="https://github.com/freecodecamp"><i class="px-2 fa-brands fa-github"></i>Github</a>
+                <a class="px-2 hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-amber-500 duration-300  " href="https://twitter.com/freecodecamp"><i class="px-2 fa-brands fa-twitter"></i>twitter</a>
+                <a class="px-2 hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-amber-500 duration-300  " href="mailto:example.com"><i class="px-2 fa-brands fa-m"></i>Send a mail</a>
+                <a class="px-2 hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:text-amber-500 duration-300  " href="tel:+923146482170"><i class="px-2 fa-solid fa-mobile"></i>Call Me</a>
             </div>
         </div>
-        <footer>
-            <p>
-                **This is just a fake portfolio. All the projects and contact details given are not real.
-            </p>
-            <p>
-                © Created for freeCodeCamp
-            </p> 
-            
-        </footer>
+       
     </section>
+
+    <footer class="bg-black border-t-4 border-red-800 flex justify-evenly py-10">
+        
+        <p >
+          **This is just a fake portfolio. All the projects and contact details
+          given are not real.
+        </p>
+        <p>
+          &copy; Created for
+          <a href="https://www.freecodecamp.com/" target="_blank"
+            >freeCodeCamp <i class="fab fa-free-code-camp"></i
+          ></a>
+        </p>
+      </footer>
 
 </body>
 </html>
